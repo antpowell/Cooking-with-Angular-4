@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
-  homeValue = 'Home';
-  headings = ['ABOUT', 'CONTACT', 'YOU'];
+  homeValue = 'HOME';
+  headings = ['About', 'Contact', 'Resume'];
   constructor() { }
 
   ngOnInit() {
